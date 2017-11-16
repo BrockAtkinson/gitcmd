@@ -15,6 +15,6 @@ Change `cmd.exe`'s shortcut target (right-click->properties) to `%windir%\system
 * `gb` -> `git branch <args>`
 * `gc` -> `git checkout <arg>`
 * `gcm` -> `git commit -m <args>`
-* `gpush` -> `git push origin <arg>`
-* `gpull` -> `git pull origin <arg>`
-* `gclone` -> `git clone <args>`
+* `gup` -> `git push origin <arg>`
+* `gdn` -> `git pull origin <arg>`
+* `gcl` -> `git clone <args>`
