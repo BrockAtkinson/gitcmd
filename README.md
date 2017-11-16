@@ -8,12 +8,13 @@ Change `cmd.exe`'s shortcut target (right-click->properties) to `%windir%\system
 ## What it does
 
 * `gi` -> `git init`
-* `gf` -> `git fetch`
 * `gs` -> `git status`
 * `ga` -> `git add <args>`
-* `gc` -> `git clone <args>`
+* `gt` -> `git tag <args>`
+* `gf` -> `git fetch <args>`
 * `gb` -> `git branch <args>`
-* `gch` -> `git checkout <args>`
+* `gc` -> `git checkout <arg>`
 * `gcm` -> `git commit -m <args>`
-* `gpush` -> `git push origin <args>`
-* `gpull` -> `git pull origin <args>`
+* `gpush` -> `git push origin <arg>`
+* `gpull` -> `git pull origin <arg>`
+* `gclone` -> `git clone <args>`

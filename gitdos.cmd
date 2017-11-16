@@ -1,10 +1,12 @@
 @echo off
-DOSKEY gf=git fetch
+DOSKEY gi=git init
 DOSKEY gs=git status
-DOSKEY ga=git add $1
-DOSKEY gc=git clone $*
+DOSKEY gf=git fetch $*
+DOSKEY ga=git add $*
+DOSKEY gt=git tag $*
 DOSKEY gb=git branch $*
-DOSKEY gch=git checkout $1
+DOSKEY gc=git checkout $1
 DOSKEY gcm=git commit -m $*
 DOSKEY gpush=git push origin $1
 DOSKEY gpull=git pull origin $1
+DOSKEY gclone=git clone $*
