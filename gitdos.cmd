@@ -4,6 +4,7 @@ DOSKEY gs=git status
 DOSKEY gf=git fetch $*
 DOSKEY ga=git add $*
 DOSKEY gt=git tag $*
+DOSKEY gd=git diff $1
 DOSKEY gr=git remote $*
 DOSKEY gb=git branch $*
 DOSKEY gc=git checkout $1
