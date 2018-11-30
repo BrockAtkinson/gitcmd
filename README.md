@@ -1,4 +1,4 @@
-# gitdos
+# gitcmd
 Perform common git actions faster.
 
 ## How to use
